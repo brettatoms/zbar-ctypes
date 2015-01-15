@@ -2,6 +2,8 @@
 
 The zbar-ctypes package is a wrapper around the ZBar barcode scanner library.
 
+** This package is for Python 3 only. **
+
 ### Scanning a PIL Image
 ```
 import zbar
