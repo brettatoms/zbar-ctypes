@@ -4,7 +4,7 @@ import sys
 if sys.platform == 'darwin':
     libzbar = cdll.LoadLibrary('libzbar.dylib')
 else:
-    libzbar = cdll.LoadLibrary('libzbar.so')
+    libzbar = cdll.LoadLibrary('libzbar.so.0')
 
 refcnt_t = c_long
 
