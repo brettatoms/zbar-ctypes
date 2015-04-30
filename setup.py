@@ -9,7 +9,7 @@ config = {
     'author': 'Brett',
     'url': 'http://github.com/brettatoms/zbar-ctypes',
     'download_url': 'https://github.com/brettatoms/zbar-ctypes.',
-    'author_email': 'brettatoms@gmail.comMy email.',
+    'author_email': 'brettatoms@gmail.com',
     'version': '0.1',
     'license': 'MIT',
     'packages': ['zbar'],
@@ -22,13 +22,13 @@ config = {
         #   5 - Production/Stable
         'Development Status :: 3 - Beta',
 
-        # Indicate who your project is intended for
         'Intended Audience :: Developers',
         'Topic :: Multimedia :: Graphics :: Capture :: Scanners',
         'Topic :: Scientific/Engineering :: Image Recognition',
 
+        'Operating System :: MacOS :: MacOS X',
+        'Operating System :: POSIX',
 
-        # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
